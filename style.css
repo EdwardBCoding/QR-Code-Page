@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* Tiny Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Variables */
+:root{
+    --card-color: hsl(0, 0%, 100%);
+    --bg-color: hsl(212, 45%, 89%);
+    --text-color: hsl(220, 15%, 55%);
+    --title-color: hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.card{
+    background-color: var(--card-color);
+    max-width: 320px;
+    padding: 1rem 1rem 1.2rem 1rem;
+    border-radius: 1.5rem;
+}
+
+img{
+    border-radius: 1rem;
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.card-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.title{
+    color: var(--title-color);
+    font-weight: 700;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.text{
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
