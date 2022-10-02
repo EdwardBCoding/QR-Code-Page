@@ -11,6 +11,7 @@
 :root{
     --card-color: hsl(0, 0%, 100%);
     --bg-color: hsl(212, 45%, 89%);
+    --shadow: hsl(215, 33%, 80%);
     --text-color: hsl(220, 15%, 55%);
     --title-color: hsl(218, 44%, 22%);
 }
@@ -31,6 +32,7 @@ body{
     max-width: 320px;
     padding: 1rem 1rem 1.2rem 1rem;
     border-radius: 1.5rem;
+    box-shadow: 0px 10px 30px 1px var(--shadow);
 }
 
 img{
@@ -60,8 +62,8 @@ img{
 
 
 .attribution{
-    font-family: 'Roboto Condensed', sans-serif;
     position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
     bottom: 0;
     text-align: center;
 }
