@@ -56,7 +56,7 @@ In future projects, I want to become more comfortable with moving objects around
 
 ## Author
 
-- GitHub - [Add your name here](https://github.com/EdwardBCoding)
+- GitHub - [@EdwardBCoding](https://github.com/EdwardBCoding)
 - Frontend Mentor - [@EdwardBCoding](https://www.frontendmentor.io/profile/EdwardBCoding)
 
 ## Acknowledgments
